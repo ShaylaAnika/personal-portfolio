@@ -1,0 +1,136 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.name-highlight{
+    color: rgb(222, 112, 241);
+}
+.name-dot{
+    color:rgb(222, 112, 241);
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+h3{
+    font-weight: 600;
+}
+
+p{
+    color: dimgray;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    
+    
+}
+
+.half-width img{
+    width: 100%;
+   
+}
+
+.home-container{
+    background-image: url(/img/top-banner.png);
+    
+    height: 600px;
+    background-repeat: no-repeat;
+    
+    
+}
+.name-description{
+    margin: 2rem 0;
+
+}
+
+section{
+    padding-bottom: 4rem;
+}
+
+.button-link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(234, 109, 221), rgb(74, 4, 86));
+    padding: 10px 30px;
+    border-radius: 10px;
+    color: white; 
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+.dream-section{
+    background-image: url(/img/dream-bg.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: right ;
+}
+
+.description{
+    margin-top: 5rem;
+    padding-left: 2rem;
+}
+
+.big-section{
+    height: 600px;
+
+}
+
+.title-color{
+    color: rgb(222, 112, 241);
+}
+
+.big-title{
+    font-size: 50px;
+    font-weight: 500;
+    display: grid;
+    justify-items: center;
+    margin-bottom: 4rem;
+    color: rgb(137, 27, 171);
+    
+}
+
+.box-shadow{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    border-radius: 15px;
+}
+
+.big-section{
+    background-image: url(/img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#border-left{
+    border-left: 7px solid;
+    border-image:linear-gradient(rgb(248, 167, 16), tomato);
+    border-image-slice: 1;
+}
+
+#border-right{
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(249, 157, 173), rgb(229, 7, 188));
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
